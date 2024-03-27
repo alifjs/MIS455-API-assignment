@@ -1,0 +1,159 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* height: 100vh; */
+}
+
+.big_container {
+    height:900px;
+}
+
+.country_container {
+    font-size: 20px;
+    /* max-width: 800px; */
+    padding: 20px;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+nav {
+    background-color: #333;
+    font-size: 24px; /* Increase the font size */
+    height: 60px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox for horizontal alignment */
+    justify-content: right; 
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px; /* Add some spacing between list items */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove margin from the last list item */
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+
+/* Search bar styles */
+#searchInput {
+    /* width: 100%; */
+    width:500px;
+    padding: 15px;
+    font-size: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#searchBtn {
+    width: 130px;
+    padding: 15px;
+    font-size: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 20px;
+}
+
+#searchBtn:hover {
+    background-color: #45a049;
+}
+
+/* Country card styles */
+.country-card {
+    width:500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:30px 10px 10px 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.country-card img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.country-details {
+    padding: 20px;
+    text-align: left;
+}
+
+.country-details p {
+    margin: 10px 0;
+}
+
+.show-weather-btn {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.show-weather-btn:hover {
+    background-color: #0b7dda;
+}
+
+.weather-details {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    /* position: fixed;
+    bottom: 0;  */
+    width: 100%;
+}
